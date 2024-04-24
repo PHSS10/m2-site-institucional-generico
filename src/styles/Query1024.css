@@ -1,0 +1,62 @@
+@media(max-width:1024px){
+    #about__us{
+        gap: 4.063rem;
+    }
+    #about__us p {
+        width: 30rem;
+        margin-right: 5.5rem;
+       
+    }
+    #container__FAQ {
+       
+        height: 68rem;
+    }
+
+    #container__comments{
+        width: 100%;
+        height: 50.5rem;
+        margin-bottom: 100px;
+
+    }
+
+    #container__frequently__questions{
+        
+        width: 30rem;
+
+    }
+
+    #container__list__doubts{
+        
+        margin-right: 0rem;
+        
+    }
+
+    .list__doubts p{
+        width: 450px;
+    }
+    #container__students__information {
+    
+        max-height: 17rem;
+        height: 100%;
+        margin: 0 2.5rem 0 2.5rem;
+    }
+
+    #container__about__students {
+
+        max-width: 480px;
+        width: 100%;
+    }
+
+    .about__students{
+        width: 100%;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .name__students{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap:3.125rem
+    }
+}
