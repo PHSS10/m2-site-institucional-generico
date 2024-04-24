@@ -1,0 +1,78 @@
+@media(max-width:426px){
+    #cabecalho{
+        height: 4rem;
+    }
+    
+    #cabecalho__itens{
+        display: flex;
+        justify-content: start
+    }
+    
+    #button__cadastrarHeader{
+        display: none;
+    }
+
+    #banner__institution h1{
+        font-size: 2.7rem;
+    }
+
+    #container__FAQ{
+        height:70rem;
+        margin-bottom: 0;
+    }
+
+    #container__frequently__questions{
+        margin-top: 0;
+    }
+    
+    #frequently__questions h2{
+        font-size: 2em;
+    }
+
+    #container__list__doubts {
+        max-width: 94%;
+        margin-right: 0px;
+        gap: 6.25rem;
+    }
+
+    .list__doubts h3{
+        font-size: 1.5rem;
+    }
+
+    #container__comments{
+        height:60rem;
+    }
+    #comments__students{
+        margin-top: 0;
+
+    }
+    #container__students__information {
+        max-width: 77%;
+        margin-left: 1rem;
+    }
+
+    #students__information h2{
+        font-size: 1.25rem;
+    }
+
+    .about__students{
+        max-width: 90%;
+    }
+
+    dialog{
+        max-width: 350px;
+        width: 100%;
+        max-height: 300px;
+        height: 100%;
+        margin-right: 3.875rem;
+    }
+
+    #modal__cadastro input {
+        width: 89%;
+    }
+
+    #button__entrar{
+        width: 100%;
+    }
+
+}
