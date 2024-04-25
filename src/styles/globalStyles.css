@@ -358,8 +358,8 @@ dialog::backdrop{
 }
 
 dialog{
-    width: 34.625rem;
-    height: 26rem;
+    width: clamp(1rem, -23.018rem + 64.048vw, 34.625rem);
+    height: clamp(1rem, -16.857rem + 47.619vw, 26rem);
     padding: 2.5rem 1.75rem 2.5rem 1.75rem;
     background-color: var(--backgroundcolor-secondary);
     border:2px solid var(--backgroundcolor-button)
