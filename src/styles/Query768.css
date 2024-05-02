@@ -1,9 +1,17 @@
 @media(max-width:768px){
-     #banner__institution h1 {
+    
+    
+    
+    #banner__institution h1 {
         font-size: 2.5rem;
         font-weight: 600;
     }
-   
+    
+    #banner__institution p{
+        max-width: 30rem;
+        width: 100%;
+    }
+    
     #about__us{
         display: flex;
         flex-direction: column;
@@ -14,29 +22,30 @@
     #about__us h2{
         width: 100%;
         margin-left: 0;
+        font-size: 2.0rem;
     }
     #about__us p{
         width: 95%;
         margin-right: 0;
     }
-
+    
     #container__FAQ{
         height: 65rem;
     }
-
+    
     #FAQ__information {
-
+        
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
         width: 100%;
-
+        
         text-align: center;
     }
-
+    
     #container__frequently__questions {
-
+        
         position: static;
         display: flex;
         justify-content: space-around;
@@ -44,64 +53,84 @@
         width: 98%;
         margin-left: 0;
     }
-
+    
     #frequently__questions {
         display: flex;
         align-items: center;
         width: 100%;
     }
-
+    
+    #frequently__questions h2{
+        font-size: 2rem;
+    }
+    
     #frequently__questions p {
         max-width: 95%;
     }
-
+    
     #button__cadastrar{
         width: 95%;
     }
-
-
+    
+    
     #container__list__doubts {
         width: 95%;
         margin-right: 0;
-        margin-top: 50px;
         display: flex;
         justify-content:space-around;
         gap: clamp(0.063rem, -1.679rem + 4.643vw, 2.5rem);
         height: 700px;
     }
-
+    
     .list__doubts p{
         width: 98%;
     }
 
+    #container__comments{
+        height: 80.5rem;
+    }
+    
     #comments__students{
         display: flex;
         gap: 40px;
         flex-direction: column;
-        margin-top: 100px;
+        
     }
-
+    
     #container__students__information {
-       padding: 4rem 2rem;
-        max-width: 87%;
+        max-width: 768px;
+        width: 95%;
         margin-left: 1.25rem;
         position: static;
+        
     
+        
     }
-
+    
+    #students__information{
+        display: flex;
+        justify-content: center;
+        align-items:center ;
+        
+        
+    }
+    #students__information h2{
+        font-size: 1.5rem;
+    }
+    
     #container__about__students {
         max-width: 95%;
         width: 100%;
         margin-left: 1.25rem;
     }
-
+    
     .name__students{
         width: auto;
     }
-
+    
     dialog{
         width: 30rem;
         height: 20rem;
     }
-   
+    
 }
