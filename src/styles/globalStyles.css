@@ -334,7 +334,7 @@ body{
     }
     
     .name__students h3 {
-        color: var(--color-title);
+    color: var(--color-title);
     font-weight: 600;
     font-size: clamp(1rem, 0.286rem + 1.905vw, 2rem)
 }
@@ -377,7 +377,6 @@ dialog{
     justify-content: space-between;
     background-color: var(--backgroundcolor-secondary);
     
-    
 }
 
 #container__headerModal{
@@ -413,13 +412,14 @@ dialog{
     display: flex;
     justify-content: center;
     align-items: center;
-    color:#EDF2FF;
+
 }
 
 #modal__cadastro p{
     color: var(--color-text);
     text-align:justify;
     width: 30.5rem;
+    line-height: 25px;
 }
 
 #modal__cadastro input {
