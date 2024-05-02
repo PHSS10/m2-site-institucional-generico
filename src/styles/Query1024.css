@@ -1,50 +1,36 @@
 @media(max-width:1024px){
-    #about__us{
-        gap: 4.063rem;
+    #about__us h2{
+       width: 25rem;
     }
     #about__us p {
-        width: 30rem;
-        margin-right: 5.5rem;
-       
-    }
-    #container__FAQ {
-       
-        height: 68rem;
+        width: 25rem;
     }
 
     #container__comments{
         width: 100%;
-        height: 50.5rem;
-        margin-bottom: 100px;
+        height: 70.688rem;
 
     }
 
     #container__frequently__questions{
-        
-        width: 30rem;
-
+        width: 25rem;
     }
 
     #container__list__doubts{
-        
-        margin-right: 0rem;
-        
+        width: 25rem;
     }
-
-    .list__doubts p{
-        width: 450px;
+    .list__doubts{
+        
+        display: flex;
+        align-items: center;
     }
-    #container__students__information {
     
-        max-height: 17rem;
-        height: 100%;
-        margin: 0 2.5rem 0 2.5rem;
+    #container__students__information {
+        width: 25rem;
     }
 
     #container__about__students {
-
-        max-width: 480px;
-        width: 100%;
+        width: 25rem;
     }
 
     .about__students{
