@@ -17,22 +17,14 @@
     }
 
     #container__FAQ{
-        height:70rem;
-        margin-bottom: 0;
-    }
+        height:72rem;
 
-    #container__frequently__questions{
-        margin-top: 0;
-    }
-    
-    #frequently__questions h2{
-        font-size: 2em;
     }
 
     #container__list__doubts {
-        max-width: 94%;
-        margin-right: 0px;
+        width: 95%;
         gap: 6.25rem;
+    
     }
 
     .list__doubts h3{
@@ -40,35 +32,47 @@
     }
 
     #container__comments{
-        height:60rem;
+        height:100rem;
     }
     #comments__students{
         margin-top: 0;
 
     }
     #container__students__information {
-        max-width: 77%;
-        margin-left: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 92%;
+        margin: 0 0 0 1rem  ;
+        
     }
 
     #students__information h2{
         font-size: 1.25rem;
+        line-height: 25px;
     }
 
     .about__students{
-        max-width: 90%;
+        width: 95%;
     }
 
     dialog{
-        max-width: 17.813rem;
-        width: 100%;
-        max-height: 18.75rem;
+        width: 70%;
         height: 100%;
         
+        
+    }
+    #modal__cadastro{
+        width: 100%;
+    }
+
+    #modal__cadastro p{
+        width: 100%;
+        line-height: 25px;
     }
 
     #modal__cadastro input {
-        width: 89%;
+        width: 88%;
     }
 
     #button__entrar{
