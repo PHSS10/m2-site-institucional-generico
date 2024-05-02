@@ -21,7 +21,7 @@ body{
     }
     
     #cabecalho{
-        max-width: 2000px;
+       
         width: 100%;
         height:6.25rem;
         
@@ -57,16 +57,12 @@ body{
         cursor:pointer ;
     }
 
-    main{
-        max-width:2000px;
-        width: 100%; 
-    }
 
     /* O cabeçalho terminou está pronto */
 
     #container__banner__institution{
         width: 100%;
-        height: 40.813rem;
+        height: 48.813rem;
         
     }
 
@@ -91,10 +87,12 @@ body{
 
     #banner__institution p{
         text-align:center;
-        padding:  0 clamp(1rem, -9.446rem + 27.857vw, 15.625rem);
-        color: var(--color-text)
+        max-width: 48.125rem;
+        width: 100%;
+        color: var(--color-text);
+        line-height: 25px;
     }
-
+    
     #banner__institution button{
         
         width: 8.875rem;
@@ -108,7 +106,7 @@ body{
     }
     
     /* A parte do banner termina aqui */
-
+    
     #container__about__us{
         width:100%;
         height:17.75rem;
@@ -119,63 +117,66 @@ body{
     #about__us{
         width: 100%;
         height: 100%;
-
+        
         
         display: flex;
         align-items: center;
         justify-content: space-around;
-    
+        
     }
-
+    
     #about__us h2{
         
-        font-size: 2.5rem;
+        font-size: clamp(1rem, -0.071rem + 2.857vw, 2.5rem);
         font-weight: 600;
-
-        width: clamp(1rem, -31.143rem + 85.714vw, 46rem);
-        margin-left: 2.5rem;
+        
+        width: 38.75rem;
     }
-
+    
     #about__us p {
-        width: clamp(1rem, -19rem + 53.333vw, 29rem);
+        width: 36.25rem;
+        height: 7.5rem;
         text-align: justify;
-        margin-right: 2.5rem;
+        line-height: 25px;
+    
+        
     }
-
+    
     /* A parte do about__us termina aqui */
-
-
+    
+    
     #container__FAQ{
         width: 100%;
         height: 64rem;
-        margin-top: 3.75rem;
-        margin-bottom: 3.75rem;
-    }
         
+    }
+    
     #FAQ__information{
         width:100%;
         
         display: flex;
-        justify-content: space-between;
-        
+        justify-content: space-around;
         
     }
     
     #container__frequently__questions{
-        max-width: 30rem ;
+        max-width: 38.75rem ;
         width: 100%;
         max-height: 17.5rem; 
         height: 100%;
-        margin-left: 4.25rem;
-        margin-top: 4.5rem;
+        padding: 3.75rem  0 2.5rem 0 ;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
         
         position: sticky;
         top: 12.5rem;
-    
+        
     }
     
     #frequently__questions{
-        width: 80%;
+        width: 100%;
         height: 100%;
         
         display: flex;
@@ -188,7 +189,7 @@ body{
         width: 33.313rem;
         
         font-weight: 600;
-        font-size: 2.5rem;
+        font-size: clamp(1rem, -0.071rem + 2.857vw, 2.5rem)
     }
     
     #frequently__questions p{
@@ -197,6 +198,7 @@ body{
         
         max-width:33.313rem;
         width: 100%;
+        line-height: 25px;
     }
     
     #button__cadastrar{
@@ -214,9 +216,9 @@ body{
     /* A parte do left side questions termina aqui */
     
     #container__list__doubts{
-        width: 32rem;
-        height: 1000px;
-        margin-right: 4rem;
+        width: 36.438rem;
+        height: 60.5rem;
+        
         
         display: flex;
         flex-direction: column;
@@ -224,130 +226,126 @@ body{
         justify-content: space-around;
         
     }
-
+    
     .list__doubts{
         width: 100%;
-        height: 10%;
+        height: 7.5rem;
         
         display: flex;
         flex-direction: column;
         gap: 2rem;
         
-       
+        
     }
-
+    
     .list__doubts h3{
-        font-size: 2rem;
+        font-size: clamp(1rem, 0.286rem + 1.905vw, 2rem);;
         font-weight: 600;
         text-align: center;
         
     }
-
+    
     .list__doubts p{
         text-align:justify;
         color: var(--color-text);
+        line-height: 25px;
         
     }
-
-/* A parte do right side questions termina aqui */
-
-#container__comments{
-    width:100%;
-    height: 55.5rem;
-    margin-bottom: 100px;
-}
-
-#comments__students{
-    width: 100%;
-    height: 100%;
     
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-around;
+    /* A parte do right side questions termina aqui */
+    
+    #container__comments{
+        width:100%;
+        height: 70.5rem;
+        padding:82px 0 82px 0 ;
+    }
+    
+    #comments__students{
+        width: 100%;
+        height: 100%;
+        
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        
+        
+    }
+    
+    #container__students__information{
+        width: 36.25rem;
+        max-height: 25rem ;
+        height: 100%;
+
+        position: sticky;
+        top: 12.5rem;
+        background-color: var(--backgroundcolor-button);
+    }
+    
+    #students__information{
+        display: flex;
+        flex-direction: column;
+        gap:2.5rem;
+        text-align: justify;
+        padding: 5rem 3.25rem 5rem 3.25rem;
+        line-height: 25px;
+        
+    }
+    
+    #students__information h2 {
+        font-size:clamp(1rem, -0.071rem + 2.857vw, 2.5rem) ;
+        
+        font-weight: 600;
+        line-height: clamp(1rem, -1.143rem + 5.714vw, 4rem);
+        text-align: start;
+        
+    }
     
     
-}
-
-#container__students__information{
-    max-width: 30.813rem;
-    width: 100%;
-    max-height: 25rem ;
-    height: 100%;
-    padding: 1.875rem;
-    margin: 0 0 0 2.5rem;
-   
-    display: flex;
-    flex-wrap: nowrap;
-
-    position: sticky;
-    top: 12.5rem;
+    #container__about__students{
+        display: flex;
+        flex-direction: column;
+        gap: 82px;
+        text-align: justify;
+        
+        max-width:38.75rem;
+        width: 100%;
+        
+    }
     
+    .about__students{
+        display: flex;
+        
+        max-height: 9.438rem;
+        height: 100%;
+        
+        color: var(--color-text);
+    }
+
+    .about__students p{
+        line-height: 25px;
+    }
     
-    background-color: var(--backgroundcolor-button);
-}
-
-#students__information{
-    display: flex;
-    flex-direction: column;
-    gap:2.5rem;
-    text-align: justify;
+    .name__students{
+        display: flex;
+        flex-direction: column;
+        width:clamp(1rem, -62.571rem + 169.524vw, 90rem);
+        gap: 1rem;
+        text-align: left;
+    }
     
-    width: 100%;
-    height: 100%;
-    
-}
-
-#students__information h2 {
-    font-size:clamp(1rem, -0.071rem + 2.857vw, 2.5rem) ;
-    
-    font-weight: 600;
-    line-height: clamp(1rem, -1.143rem + 5.714vw, 4rem);
-    text-align: start;
-
-}
-
-
-#container__about__students{
-    display: flex;
-    flex-direction: column;
-    gap: clamp(1rem, -0.429rem + 3.81vw, 3rem);
-    text-align: justify;
-    
-    max-width:700px;
-    width: 100%;
-    margin-left: 3rem;
-}
-
-.about__students{
-    display: flex;
-
-    max-height: 9.438rem;
-    height: 100%;
-
-    color: var(--color-text);
-}
-
-.name__students{
-    display: flex;
-    flex-direction: column;
-    width:clamp(1rem, -62.571rem + 169.524vw, 90rem);
-    gap: 1rem;
-    text-align: left;
-}
-
-.name__students h3 {
-    color: var(--color-title);
+    .name__students h3 {
+        color: var(--color-title);
     font-weight: 600;
     font-size: clamp(1rem, 0.286rem + 1.905vw, 2rem)
 }
 
 footer{
-    max-width: 2000px;
+    
     width: 100%;
     height: clamp(1rem, -2.839rem + 10.238vw, 6.375rem)6.375rem;
     padding: 3.125rem 0 3.125rem 0;
     background-color: var(--backgroundcolor-primary);
-
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -358,8 +356,10 @@ dialog::backdrop{
 }
 
 dialog{
-    width: clamp(1rem, -23.018rem + 64.048vw, 34.625rem);
-    height: clamp(1rem, -16.857rem + 47.619vw, 26rem);
+    max-width: 34.625rem;
+    width: 100%;
+    max-height: 26rem;
+    height: 100%;
     padding: 2.5rem 1.75rem 2.5rem 1.75rem;
     background-color: var(--backgroundcolor-secondary);
     border:2px solid var(--backgroundcolor-button)
@@ -394,28 +394,32 @@ dialog{
 }
 
 #remover__modal{
-    max-width:2rem;
+    max-width:2.375rem;
     width: 100%;
     max-height: 2rem;
     height: 100%;
 
-    background-color: #343A40;
-
+    background-color:#343A40;
+    
     border: none;
     border-radius: 0.25rem;
+    cursor: pointer;
 }
+
 #remover__modal img{
     width: 100%;
     height: 100%;
-
+    
     display: flex;
     justify-content: center;
     align-items: center;
+    color:#EDF2FF;
 }
 
 #modal__cadastro p{
     color: var(--color-text);
     text-align:justify;
+    width: 30.5rem;
 }
 
 #modal__cadastro input {
@@ -438,7 +442,11 @@ dialog{
     background-color: var(--backgroundcolor-button);
     color: var(--color-title);
     border: none;
+
+    cursor: pointer;
 }
+
+
 
 
 
