@@ -29,9 +29,14 @@
 
     }
 
+    #frequently__questions h2 {
+        width: 100%;
+    }
+
     #container__list__doubts {
         width: 95%;
         gap: 6.25rem;
+        margin-top: 2.5rem;
     
     }
 
@@ -65,12 +70,8 @@
     }
 
     dialog{
-        width: 365px;
+        width: 80%;
         height: 100%;
-
-        position:relative;
-        top: 25%;
-
 
     }
     #modal__cadastro{
