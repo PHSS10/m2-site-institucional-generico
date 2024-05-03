@@ -342,7 +342,7 @@ body{
 footer{
     
     width: 100%;
-    height: clamp(1rem, -2.839rem + 10.238vw, 6.375rem)6.375rem;
+    height: clamp(1rem, -2.839rem + 10.238vw, 6.375rem);
     padding: 3.125rem 0 3.125rem 0;
     background-color: var(--backgroundcolor-primary);
     
@@ -361,8 +361,9 @@ dialog{
     max-height: 26rem;
     height: 100%;
     padding: 2.5rem 1.75rem 2.5rem 1.75rem;
+    
     background-color: var(--backgroundcolor-secondary);
-    border:2px solid var(--backgroundcolor-button)
+    border:2px solid var(--backgroundcolor-button);
     
 }
 
