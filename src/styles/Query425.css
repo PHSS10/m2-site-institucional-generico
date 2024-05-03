@@ -1,6 +1,7 @@
 @media(max-width:426px){
     #cabecalho{
         height: 4rem;
+        position: absolute;
     }
     
     #cabecalho__itens{
@@ -14,6 +15,13 @@
 
     #banner__institution h1{
         font-size: 2.7rem;
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     #container__FAQ{
@@ -57,10 +65,13 @@
     }
 
     dialog{
-        width: 70%;
+        width: 365px;
         height: 100%;
-        
-        
+
+        position:relative;
+        top: 25%;
+
+
     }
     #modal__cadastro{
         width: 100%;
